@@ -1,6 +1,7 @@
-section#about div h1{ margin-top: 5%; font-size: 50px;}
-span.tech{ color: #f6a9a9; font-size: 28px; }
-span.person{ color: #fff1b3; font-size: 28px; }
+section#about div h1{ margin-top: 5%;}
+section#about div p{ font-size: 15px; }
+section#about div span.tech{ color: #f6a9a9; font-size: 18px; }
+section#about div span.person{ color: #fff1b3; font-size: 18px; }
 
 section#portfolio h1 { margin-top: 5%; font-size: 50px; }
 section#portfolio .container{
