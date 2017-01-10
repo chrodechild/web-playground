@@ -1,7 +1,7 @@
 section#about div h1{ margin-top: 5%;}
 section#about div p{ font-size: 15px; }
-section#about div span.tech{ color: #f6a9a9; font-size: 18px; }
-section#about div span.person{ color: #fff1b3; font-size: 18px; }
+section#about div span.tech{ color: #ffbb31; font-size: 18px; }
+section#about div span.person{ color: #9efff8; font-size: 18px; }
 
 section#portfolio h1 { margin-top: 5%; font-size: 50px; }
 section#portfolio .container{
@@ -10,46 +10,67 @@ section#portfolio .container{
 	overflow: hidden;
 }
 
-.galleryItem {
-	color: #797478;
-	font: 15px/1.5 Verdana, Helvetica, sans-serif;
-	float: left;
-
-	width: 16%;
-	margin:  2% 2% 50px 2%;	
+ul.rig {
+	list-style: none;
+	font-size: 0px;
+	margin-left: -2.5%; /* should match li left margin */
+	color: #AAC1C9;
 }
-
-.galleryItem h3 {
-	text-transform: uppercase;
+ul.rig li {
+	display: inline-block;
+	padding: 2px;
+	margin: 0 0 2.5% 2.5%;
+	/*background: #fff;*/
+	/*border: 1px solid #ddd;*/
+	font-size: 16px;
+	font-size: 1rem;
+	text-align: center;
+	vertical-align: top;
+	box-shadow: 0 0 5px #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
-
-.galleryItem img {
+ul.rig li img {
 	max-width: 100%;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	height: auto;
+	margin: 0 0 10px;
 }
-
-/* MEDIA QUERIES*/
-@media only screen and (max-width : 940px),
-only screen and (max-device-width : 940px){
-	.galleryItem {width: 21%;}
+ul.rig li h3 {
+	text-transform: uppercase;
+	margin: 0 0 5px;
 }
-
-@media only screen and (max-width : 720px),
-only screen and (max-device-width : 720px){
-	.galleryItem {width: 29.33333%;}
+ul.rig li span {
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #BABABA;
 }
-
-@media only screen and (max-width : 530px),
-only screen and (max-device-width : 530px){
-	.galleryItem {width: 46%;}
+/* class for 2 columns */
+ul.rig.columns-2 li {
+	width: 47.5%; /* this value + 2.5 should = 50% */
 }
-
-@media only screen and (max-width : 320px),
-only screen and (max-device-width : 320px){
-	.galleryItem {width: 96%;}
-	.galleryItem img {width: 96%;}
-	.galleryItem h3 {font-size: 18px;}
-	.galleryItem p, {font-size: 18px;}
+/* class for 3 columns */
+ul.rig.columns-3 li {
+	width: 30.83%; /* this value + 2.5 should = 33% */
+}
+/* class for 4 columns */
+ul.rig.columns-4 li {
+	width: 22.5%; /* this value + 2.5 should = 25% */
+}
+ 
+@media (max-width: 480px) {
+	ul.grid-nav li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	ul.grid-nav li a {
+		display: block;
+	}
+	ul.rig {
+		margin-left: 0;
+	}
+	ul.rig li {
+		width: 100% !important; /* over-ride all li styles */
+		margin: 0 0 20px;
+	}
 }

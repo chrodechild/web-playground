@@ -123,10 +123,11 @@ div#color-9 blockquote{
 section#contact h1.social{ margin-top: 2%; word-spacing: 20px; font-size: 50px;  }
 section#contact div.phmap{ margin: 10% auto; width: 10% }
 section#contact a{
-  color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 241, 179);
 }
 section#contact a:hover, a:focus{
-  color: #fff;
+  color: rgb(255, 241, 179);
+  text-shadow: 0 0 4px #fff;
 }
 section#contact .contactnumbers{margin-top: 20%; font-size: 15px;}
 section#contact .contactnumbers span{ padding: 2px 30px;  }
