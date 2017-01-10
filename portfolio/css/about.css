@@ -14,7 +14,6 @@ ul.rig {
 	list-style: none;
 	font-size: 0px;
 	margin-left: -2.5%; /* should match li left margin */
-	color: #AAC1C9;
 }
 ul.rig li {
 	display: inline-block;
