@@ -126,8 +126,8 @@ section#contact a{
   color: rgb(255, 241, 179);
 }
 section#contact a:hover, a:focus{
-  color: rgb(255, 241, 179);
-  text-shadow: 0 0 4px #fff;
+  color: #fff;
+  text-shadow: 0 0 2px #ffbb31;
 }
 section#contact .contactnumbers{margin-top: 20%; font-size: 15px;}
 section#contact .contactnumbers span{ padding: 2px 30px;  }
