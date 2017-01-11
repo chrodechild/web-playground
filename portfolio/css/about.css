@@ -1,7 +1,7 @@
 section#about div h1{ margin-top: 5%;}
 section#about div p{ font-size: 15px; }
-section#about div span.tech{ color: #ffbb31; font-size: 18px; }
-section#about div span.person{ color: #9efff8; font-size: 18px; }
+section#about div span.tech{ color: #FCD752; font-size: 18px; }
+section#about div span.person{ color: #FCD752; font-size: 18px; }
 
 section#portfolio h1 { margin-top: 5%; font-size: 50px; }
 section#portfolio .container{
@@ -14,19 +14,19 @@ ul.rig {
 	list-style: none;
 	font-size: 0px;
 	margin-left: -2.5%; /* should match li left margin */
-	color: #BABABA;
+	color: #D5CEC8;
 }
 ul.rig li {
 	display: inline-block;
-	padding: 2px;
+	padding: 4px;
 	margin: 0 0 2.5% 2.5%;
 	/*background: #fff;*/
-	/*border: 1px solid #ddd;*/
+	border: 1px solid #D5CEC8;
 	font-size: 16px;
 	font-size: 1rem;
 	text-align: center;
 	vertical-align: top;
-	box-shadow: 0 0 5px #ddd;
+	/*box-shadow: 0 0 5px #ddd;*/
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;

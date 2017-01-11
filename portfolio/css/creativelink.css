@@ -122,12 +122,11 @@ div#color-9 blockquote{
 /*section#contact h1{ margin-top: 10%; font-size: 60px;  }*/
 section#contact h1.social{ margin-top: 2%; word-spacing: 20px; font-size: 50px;  }
 section#contact div.phmap{ margin: 10% auto; width: 10% }
-section#contact a{
-  color: rgb(255, 241, 179);
+section#contact .social a, .contactnumbers a{
+  color: #D5CEC8;
 }
-section#contact a:hover, a:focus{
+section#contact .social a:hover, a:focus, .contactnumbers a:hover, .contactnumbers a:focus{
   color: #fff;
-  text-shadow: 0 0 2px #ffbb31;
 }
 section#contact .contactnumbers{margin-top: 20%; font-size: 15px;}
 section#contact .contactnumbers span{ padding: 2px 30px;  }
